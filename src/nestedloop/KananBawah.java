@@ -12,7 +12,10 @@ public class KananBawah {
             for(j=0; j<(baris-i); j++) {
                 System.out.print(" ");
             }
-            
+            for(int a=0; a<i; a++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
