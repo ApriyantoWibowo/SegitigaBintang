@@ -8,6 +8,11 @@ public class KananBawah {
         int i,j,baris;
         System.out.println("jumlah baris : ");
         baris = input.nextInt();
-        
+        for(i=0; i<=baris; i++) {
+            for(j=0; j<(baris-i); j++) {
+                System.out.print(" ");
+            }
+            
+        }
     }
 }
