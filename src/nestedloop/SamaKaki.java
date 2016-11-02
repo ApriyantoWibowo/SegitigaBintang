@@ -12,7 +12,10 @@ public class SamaKaki {
             for (int a=1; a<=baris-i; a++) {
                 System.out.print (" ");
             }
-            
+            for (int a=1; a<2*i; a++) {
+                System.out.print ("*");
+            }
+        System.out.println (" ");
         }
    }
 }
