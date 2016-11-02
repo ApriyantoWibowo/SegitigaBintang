@@ -12,7 +12,10 @@ public class KananAtas {
             for(int a=0; a<i; a++) {
                 System.out.print(" ");
             }
-            
+            for(j=0; j<(baris-i); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
